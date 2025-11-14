@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Simple Image Captioning Test Script
-Usage: python test_image.py <image_path> [--epoch EPOCH_NUM]
-"""
+
 
 import torch
 import torch.nn as nn
