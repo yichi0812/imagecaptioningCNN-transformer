@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
-"""
-Calculate comprehensive metrics (BLEU-1/2/3/4, METEOR, ROUGE-L, CIDEr, Accuracy)
-for image captioning model evaluation.
 
-Usage:
-    python calculate_comprehensive_metrics.py \
-        --annotations /path/to/captions_val2014.json \
-        --images /path/to/val2014/ \
-        --vocab ../vocabulary.pkl \
-        --checkpoints ../checkpoints/ \
-        --output metrics_results.txt \
-        --num-images 1000
-"""
 
 import torch
 import torch.nn as nn
